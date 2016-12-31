@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# SMA
+#
+DEF SMA SMA 0 40 Y Y 1 F N
+F0 "SMA" -4400 -600 60 H V C CNN
+F1 "SMA" -4400 -1800 79 H V C CNB
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+$FPLIST
+ C:\Users\RabbitPearl\Documents\GitHub\iot-gprs-wifi-uno-hw\footprint_new.pretty
+$ENDFPLIST
+DRAW
+S -4900 -700 -3900 -1700 0 1 0 N
+X ~ 1 -5100 -900 200 R 50 50 1 1 I
+X ~ 2 -3700 -900 200 L 50 50 1 1 I
+X ~ 3 -5100 -1200 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
